@@ -1,0 +1,14 @@
+.col1 {
+    grid-column: span 1;
+}
+
+.col2 {
+    grid-column: span 2;
+}
+
+
+.mobile-view {
+    background-color: lightcoral;
+}
+
+/* Styles for tablet view */

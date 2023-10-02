@@ -1,0 +1,165 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.content {
+    background-color: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.text-3xl {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form label {
+    justify-content: start;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Responsive styles for smaller screens */
+
+@media screen and (max-width: 768px) {
+
+    .content {
+        padding: 20px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+
+    .content {
+        padding: 10px;
+        max-width: 400px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+
+    .content {
+        padding: 10px;
+        max-width: 370px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .content {
+        padding: 10px;
+        max-width: 340px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .content {
+        padding: 10px;
+        max-width: 300px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #file {
+        width: 200px;
+    }
+}
